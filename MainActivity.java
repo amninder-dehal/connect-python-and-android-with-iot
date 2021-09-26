@@ -32,8 +32,8 @@ public class MainActivity extends Activity {
     EditText GetValue;
     String[] ListElements = new String[]{};
     static String MQTTHOST = "tcp://broker.hivemq.com:1883";
-    static String USERNAME = "Annie";
-    static String PASSWORD = "dehal";
+    static String USERNAME = "OPTIONAL";
+    static String PASSWORD = "OPTIONAL";
     String topicStr = "first";
     String topicSt = "second";
     MqttAndroidClient client;
